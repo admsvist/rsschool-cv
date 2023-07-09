@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-          name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <link href="style.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="./assets/styles/style.css" rel="stylesheet">
     <link href="./assets/favicon.ico" rel="icon">
     <title>cv</title>
 </head>
@@ -75,7 +73,7 @@
                 <code class="section-item">
 function sumMul(n,m) {
     let sum = 0;
-    for(let i = n; i < m; i+=n) {
+    for(let i = n; i &lt; m; i+=n) {
         sum += i;
     }
     return sum === 0 ? 'INVALID' : sum;
